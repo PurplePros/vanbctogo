@@ -1231,7 +1231,7 @@
             
         </script>
         <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANP1ANl5QaD-aDVVnboPbcDJ9s6YqJMzQ&callback=initMap">
+          src="https://maps.googleapis.com/maps/api/">
         </script>
         <script src="script.js"></script>
 		<footer class="footer">
