@@ -1,0 +1,655 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; 
+  line-height: 60px;
+  text-align: center;
+  background-color: #292b2c;
+  font-size: 12px;
+}
+
+#navbar-header h1, h6 {
+	margin: 0;
+}
+
+#navbar-header h6, .cities-section h3, .about-section h3, .about h3, .contactus h3 {
+	color: #61605f;
+}
+
+#navbar-header h1 {
+	font-family: 'Viga', sans-serif;
+}
+
+nav .navbar-nav > li a {
+	color: black !important;
+	font-weight: 600;
+	
+}
+
+nav .navbar-nav #navbar-link, nav .navbar-nav #navbarDropdownMenuLink {
+	padding-left: 3rem !important;
+}
+
+
+nav .navbar-nav li a:hover {
+	color: #4f86fe !important;
+}
+
+nav .navbar-nav a:active {
+	background-color: white;
+}
+
+.dropdown-item.active {
+	color: #4f86fe !important;
+	background-color: white !important;
+}
+
+.jumbotron {
+	background-size: cover;
+	position: relative;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+/*#home-img {*/
+/*    background-image: url("images/masthead1.jpg");*/
+/*}*/
+
+#aboutus-img {
+	background-image: url("images/aboutheader.jpg");
+}
+
+#contactus-img {
+	background-image: url("images/suganth-LOtpe_VRO0Y-unsplash.jpg");
+}
+
+.jumbotron .masthead-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.jumbotron .masthead-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron .masthead-inner h1, .jumbotron .masthead-inner p {
+	color: white !important;
+}
+
+
+.jumbotron .masthead-inner .masthead-btns {
+	padding-top: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.jumbotron .masthead-inner .masthead-btns a:hover {
+	background-color: rgb(75, 130, 250);
+	border-color: rgb(75, 130, 250);
+}
+
+
+.jumbotron .masthead-inner .masthead-btns a, .addbusinessform .needs-validation button {
+	background-color: #4f86fe;
+	border-color: #4f86fe;
+}
+
+.cities-section, .about-section {
+	margin: 0 auto;
+}
+
+.cities-section {
+	width: 80%;
+}
+
+.cities-section > i {
+	width: 40px;
+	height: 40px;
+}
+
+.about-section {
+	margin-top: 40px;
+	background-color: #f8f9fa;
+	padding: 30px;
+}
+
+.container-fluid {
+	margin-top: 30px;
+}
+
+.cities-section h3, .about-section h3 {
+	text-align: center;
+}
+
+.cities-section .card-body, .about-body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cities-section .card-body > a, .cities-section .card-body > i,  .cities-section .card-body > h5 {
+	padding: 0;
+	margin: 0;
+}
+
+.card {
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.card-btn a, .contactus a {
+	color: #4f86fe;
+}
+
+.about-body {
+	justify-content: space-evenly;
+	margin: auto;
+	width: 80%;
+	/*align-items: center;*/
+	vertical-align: top;
+	padding-top: 10px;
+	/*background-color: green;*/
+}
+
+.about-text {
+	width: 50%;
+	padding-right: 20px;
+	/*position: absolute;*/
+	/*background-color: red;*/
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	float: right;
+	overflow: hidden;
+	/*background-color: blue;*/
+}
+
+.about, .contactus {
+	width: 80%;
+	margin: auto;
+}
+
+.about .team-intro #teamcards-container {
+	margin-top: 20px;
+}
+
+.about .team-intro #intro-avatar {
+	clip-path: circle();
+}
+
+.about .team-intro .intro-card, .contactus-success {
+	-webkit-box-shadow: 14px 11px 36px -25px rgba(173,173,173,1);
+	-moz-box-shadow: 14px 11px 36px -25px rgba(173,173,173,1);
+	box-shadow: 14px 11px 36px -25px rgba(173,173,173,1);
+	border: 0.5px solid rgba(247,247,247,1);
+}
+
+.contactus .contactus-body a {
+    text-decoration: none;
+}
+
+.contactus-success {
+	width: 40%;
+	text-align: center;
+	padding: 30px;
+	margin: auto;
+	margin-top: 5vh;
+}
+
+.contactus-success a, .about-section .about-body #canadatogo {
+	color: #4f86fe;
+	text-decoration: none;
+}
+
+.contactus-success img {
+	margin-bottom: 10px;
+}
+
+.about .team-intro .intro-card {
+	padding: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.about .team-intro .intro-card h5, .highlightCity {
+	color: #4f86fe;
+}
+
+.about .team-intro .intro-card .intro > img {
+	width: 300px;
+	height: auto;
+}
+
+
+.addbusinessform form button {
+	margin-bottom: 40px;
+}
+
+#legend {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.col-sm.text-center {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.classification, .marker {
+	align-items: center;
+	margin: auto;
+	/*background-color: green;*/
+
+}
+
+.classification p, .marker p {
+	align-items: center;
+	margin: auto;
+	/*background-color: green;*/
+
+}
+
+.classification img{
+	height: 30px;
+	width: 30px;
+	/*background-color: green;*/
+}
+
+.restaurant-options {
+	width: 100%;
+	margin: 0;
+	/* background-color: blue; */
+}
+
+.restaurant-options img {
+	height: 25px;
+	width: 25px;
+	padding: 2px;
+	/* background-color: red; */
+}
+
+.classification p, .listing p, .marker p {
+	padding-left: 0.5vw;
+	vertical-align: middle;
+}
+
+#restaurantrow {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#restaurantcolumn {
+	background-color: #f7f7f7;
+	box-sizing: border-box;
+	width: 31.25%;
+	padding: 16px;
+	margin: 1%;
+	text-align: center;
+	display: block;
+}
+
+#restaurantcolumn p {
+	margin: 0; 
+	padding: 2px;
+	word-wrap: break-word;
+}
+
+#restaurantcolumn p:first-child {
+	font-weight: bold;
+}
+
+.wrap {
+	width: 100%;
+	margin: auto;
+	display: table;
+    margin-top: 20px;
+}
+
+.filter {
+    width: 70%;
+    margin: auto;
+}
+
+.listing h3, .viewOptions {
+    text-align: center;
+    
+}
+.listing {
+	margin-bottom: 100px;
+}
+
+.panellink {
+    text-decoration: none !important;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.panellink:hover{
+    text-decoration: none !important;
+    color: white;
+}
+
+.marker {
+    bottom: 0;
+    
+}
+
+.interactiveMap {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    width: 97%;
+    margin: auto;
+}
+
+.panel, #map {
+    border: 2px solid #808080;
+}
+
+.panel {
+    overflow-y: auto;
+    max-height: 90vh;
+    width: 20%;
+}
+
+#map {
+    height: 90vh;
+    width: 80%;
+}
+
+#restaurant {
+    padding: 10px;
+    width: calc(100% - 2px);
+    float: right;
+}
+
+#restaurantoptions {
+    margin-top: 0;
+    padding-top: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#restaurantoptions img {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+.listing h2{
+    margin-bottom: 25px;
+}
+
+.viewOptions {
+    margin: auto;
+    text-align: center;
+}
+
+.filterButtons {
+    margin-top: 5px;
+    height: 40px;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filterButtons:focus {
+    outline: none;
+}
+
+.map {
+	margin-top: 5px;
+}
+.map img {
+	width: 30px;
+	height: 30px;
+}
+
+.listing .popup .overlay {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100vw;
+	height:100vh;
+	background:rgba(0,0,0,0.7);
+	z-index:1;
+	display:none;
+}
+
+.listing .popup .content {
+    overflow: auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-60%) scale(0);
+	background:#fff;
+	width: 600px;
+	height: 600px;
+	z-index:2;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	font-family:"Open Sans",sans-serif;
+}
+
+.listing .popup .close-btn {
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 30px;
+	height: 30px;
+	font-size:25px;
+	font-weight:600;
+	line-height:30px;
+	text-align:center;
+}
+
+#liveToggle {
+    cursor: pointer;
+    transform: scale(2) !important;
+}
+
+.listing .popup .content .modal-header {
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.listing .popup .content .modal-body {
+	padding: 30px;
+}
+
+.listing .popup.active .overlay {
+    display:block;
+}
+
+.listing .popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-60%) scale(1);
+}
+
+.listing .legend-icon {
+	align-items: center;
+	margin: auto;
+}
+
+.listing .legend-icon p {
+	align-items: center;
+	margin: auto;
+	padding-left: 0.5vw;
+	vertical-align: middle;
+
+}
+
+.listing .legend-icon img {
+	height: 30px;
+	width: 30px;
+	/*background-color: green;*/
+}
+
+
+.listing .modal-subheader p {
+	font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .listing {
+		text-align: center;
+	}
+	
+	.filter {
+	    width: 85%;    
+	}
+	
+	#restaurantcolumn {
+	    width: 100%;
+	}
+	
+	#legend .classification img {
+	    display: table-cell;
+	    vertical-align: middle;
+    }
+    
+    #legend .marker img {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    #legend .classification, #legend .marker {
+        display: table;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #legend .classification p, #legend .marker p {
+        vertical-align: middle;
+        display: table-cell;
+        padding-left: 5px;
+    }
+    
+    #legend {
+        width: 100%;
+    }
+    
+    .classification {
+        margin-top: 10px;
+    }
+    
+    .listing .popup .content {
+		width: 90%;
+		height: 70%;
+		/*background-color: red;*/
+	}
+
+	.listing .popup .content .modal-header {
+		font-size: 20px;
+	}
+
+	.listing .popup .content .modal-body p {
+		font-size: 16px;
+	}
+	
+	#liveToggle {
+        transform: scale(1) !important;
+    }
+    
+    .help-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .interactiveMap {
+        flex-direction: column;
+        align-items: center;
+        flex-flow: column wrap;
+        align-content: stretch;
+        justify-content: space-around;
+        /*background-color: blue;*/
+    }
+    
+    .panel {
+        height: 25vh;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #map {
+        height: 75vh;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+	.about-body {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+		/*background-color: red;*/
+	}
+
+	.about-text {
+		/*background-color: blue;*/
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.about-text #add-business-btn {
+		margin-bottom: 15px;
+	}
+
+	.img-fluid {
+		float: none;
+		margin: auto;
+	} 
+
+	nav .navbar-nav #navbar-link, nav .navbar-nav #navbarDropdownMenuLink {
+		padding-left: 0 !important;
+		margin: auto;
+		text-align: center;
+	}
+
+	nav .navbar-nav .dropdown-menu > a {
+		margin: auto;
+		text-align: center;
+	}
+
+	.contactus-success {
+		width: 90%;
+		margin-top: 15vh;
+	}
+
+}
